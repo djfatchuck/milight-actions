@@ -42,6 +42,9 @@ switch (action) {
     light.sendCommands(commands.fullColor.whiteTemperature(zone, 0));
     break;
 
+  case "dummy":
+    break;
+
 
 }
 
