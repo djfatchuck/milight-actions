@@ -1,0 +1,22 @@
+{
+  "name": "milight-actions",
+  "version": "1.0.0",
+  "description": "Actions for using node-milight-promise to run commands",
+  "main": "milight-actions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djfatchuck/milight-actions.git"
+  },
+  "keywords": [
+    "milight"
+  ],
+  "author": "charles schrumpf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djfatchuck/milight-actions/issues"
+  },
+  "homepage": "https://github.com/djfatchuck/milight-actions#readme"
+}
