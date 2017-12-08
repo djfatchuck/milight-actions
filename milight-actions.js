@@ -28,6 +28,20 @@ switch (action) {
     light.sendCommands(commands.fullColor.on(zone), commands.fullColor.brightness(zone, 10));
     break;
 
+  case "goal":
+    light.sendCommands(commands.fullColor.on(zone), commands.fullColor.rgb(zone, 255,0,0));
+    for (var x = 1; x <= 20; x += 1) {
+      if (x % 2 ===0){
+        light.sendCommands(commands.fullColor.brightness(zone, 100));
+      }
+      else {
+        light.sendCommands(commands.fullColor.brightness(zone, 1));
+      }
+      light.pause(200);
+    }
+    light.sendCommands(commands.fullColor.whiteTemperature(zone, 0));
+    break;
+
 
 }
 
