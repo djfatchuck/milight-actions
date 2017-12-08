@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/djfatchuck/milight-actions/issues"
   },
-  "homepage": "https://github.com/djfatchuck/milight-actions#readme"
+  "homepage": "https://github.com/djfatchuck/milight-actions#readme",
+  "dependencies": {
+    "node-milight-promise": "git+ssh://git@github.com/mwittig/node-milight-promise.git"
+  }
 }
